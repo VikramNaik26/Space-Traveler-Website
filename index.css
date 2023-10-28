@@ -745,8 +745,7 @@ body {
       ". image content .";
   }
 
-  .grid-container--destination > picture,
-  .grid-container--crew > picture {
+  .grid-container--destination > picture {
     max-width: 90%;
   }
 
@@ -779,7 +778,12 @@ body {
 
   .grid-container--crew > picture {
     align-self: end;
+    max-width: 68%;
     grid-column: span 2;
+  }
+
+  .grid-container--crew > #mission-image {
+    max-width: 60%;
   }
 }
 
